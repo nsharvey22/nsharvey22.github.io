@@ -11,6 +11,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -29,7 +30,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Software Developer</a>
+						<a href="index.html" class="logo">iOS Developer</a>
 					</header>
 
 				<!-- Nav -->
@@ -43,13 +44,74 @@
 
 				<!-- Main -->
 					<div id="main">
-
+						
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
 									<h2>My Name Is Nicholas Harvey</a></h2>
-									<p>I'm a passionate developer but more importantly I'm passionate about technology. I've always had an interest in mobile technologies and decided to focus on builing up my skills with mobile development.</p>
+									<p style="margin-bottom: 10%;">I'm a passionate developer but more importantly I'm passionate about technology. I've always had an interest in mobile technologies and decided to focus on builing up my skills with mobile development.</p>
 								</header>
+								<!-- Flickity HTML init -->
+<div class="gallery js-flickity" style="margin-bottom: -30%;"
+  data-flickity-options='{ "wrapAround": true }'>
+  <div class="gallery-cell">
+  	<img src="images/splash_iphone12prosilver_portrait.png" style="width: 25%"/>
+  </div>
+  <div class="gallery-cell">
+  	<img src="images/Dashboard_iphone12prosilver_portrait.png" style="width: 25%"/>
+  </div>
+  <div class="gallery-cell">
+  	<img src="images/Dashboard2_iphone12prosilver_portrait.png" style="width: 25%"/>
+  </div>
+  <div class="gallery-cell">
+  	<img src="images/Dashboard3_iphone12prosilver_portrait.png" style="width: 25%"/>
+  </div>
+  <div class="gallery-cell">
+  	<img src="images/Listings_iphone12prosilver_portrait.png" style="width: 25%"/>
+  </div>
+  <div class="gallery-cell">
+  	<img src="images/Listings2_iphone12prosilver_portrait.png" style="width: 25%"/>
+  </div>
+  <div class="gallery-cell">
+  	<img src="images/add photo_iphone12prosilver_portrait.png" style="width: 25%"/>
+  </div>
+  <div class="gallery-cell">
+  	<img src="images/add photo2_iphone12prosilver_portrait.png" style="width: 25%"/>
+  </div>
+  <div class="gallery-cell">
+  	<img src="images/basic_iphone12prosilver_portrait.png" style="width: 25%"/>
+  </div>
+  <div class="gallery-cell">
+  	<img src="images/basic2_iphone12prosilver_portrait.png" style="width: 25%"/>
+  </div>
+  <div class="gallery-cell">
+  	<img src="images/basic3_iphone12prosilver_portrait.png" style="width: 25%"/>
+  </div>
+  <div class="gallery-cell">
+  	<img src="images/more_iphone12prosilver_portrait.png" style="width: 25%"/>
+  </div>
+</div>
+								<!-- <a class="image main"></a>
+								<!--<div id="cf">
+									    <img src="images/Dashboard3_iphone12prosilver_portrait.png" style="margin-bottom: -20%; margin-top: -15%; margin-left: 37.5%; width: 25%" />
+									    <img src="images/Dashboard2_iphone12prosilver_portrait.png" style="margin-bottom: -20%; margin-top: -15%; margin-left: 37.5%; width: 25%" />
+									    <img src="images/Dashboard_iphone12prosilver_portrait.png" style="margin-bottom: -20%; margin-top: -15%; margin-left: 37.5%; width: 25%" />
+									    <img src="images/Dashboard3_iphone12prosilver_portrait.png" style="margin-bottom: -20%; margin-top: -15%; margin-left: 37.5%; width: 25%" />
+									    <img src="images/Dashboard2_iphone12prosilver_portrait.png" style="margin-bottom: -20%; margin-top: -15%; margin-left: 37.5%; width: 25%" />
+									    <img src="images/Dashboard_iphone12prosilver_portrait.png" style="margin-bottom: -20%; margin-top: -15%; margin-left: 37.5%; width: 25%" />
+								</div>-->
+								
+								</a>
+								<h2 style="margin-top: 40%;">Hammoq</a></h2>
+								<p>The Hammoq app helps resellers get their listing done faster and easier so that they can focus on making more money. The aim is for users to only have to submit pictures and a few details about the product and then Hammoq's machine learning will fill in the necessary product details. The app can also crosslist users' products across multiple marketplaces</p>
+								<p>I helped build this app from idea to MVP and then to what it is today. The co-founders gave me vague ideas of what they wanted and, using my iOS dev skills, I helped turn it into a working product.</p>
+								<ul class="actions special">
+									<li><a href="https://hammoq.com" class="button large">Check Out the Hammoq Website</a></li>
+								</ul>
+								<a href="https://apps.apple.com/us/app/hammoq/id1550677048?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1611964800&h=4b368215ddfb0b0b56ed4fb6c42d99b8" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
+							</article>
+
+							<article class="post featured">
 								<a class="image main">
 								<div class="row">
 									  <img src="images/smartbeat_vid_1.gif" alt="" style="width:50%; height:50%">
@@ -60,19 +122,9 @@
 								<h2>SmartBeat</a></h2>
 								<p>This is the app that I helped build for a startup. I worked on the front end using the Flutter framework. This app is designed to show the heartrate of a baby including other related features. This app is available on the Apple App store and the Google Play Store. It works in tandem with an IR camera and remote basestation to communicate with.</p>
 								<ul class="actions special">
-									<li><a href="https://mysmartbeat.com" class="button large">Check Out the SmartBeat Website</a></li>
+									<li><a href="https://www.mysmartbeat.com/" class="button large">Check Out the SmartBeat Website</a></li>
 								</ul>
-							</article>
-
-							<article class="post featured">
-								<a class="image main"></a>
-								<img style="margin-bottom: -20%; margin-top: -40%; width: 100%" src="images/screenshot1.png" alt="" />
-								</a>
-								<h2>Autonodrone</a></h2>
-								<p>This is my most recent project. It utilizes the DJI-iOS-Mobile SDK to provide functions for flying their drones. This application specifically focuses on providing users autonomous flying by use of waypoints. These waypoints can be mapped out before heading off to a flight zone and come with a diverse range of options for the user. I've learned a lot about Apple's Mapkit framework while building this app</p>
-								<ul class="actions special">
-									<li><a href="https://github.com/nsharvey22/AutonoDrone" class="button large">Check Out on Github</a></li>
-								</ul>
+								<a href="https://apps.apple.com/us/app/smart-beat-baby-monitor/id1225646072?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1543363200&h=497cb9d7a0edd3105163198477bbc4e4" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
 							</article>
 
 						<!-- Posts -->
@@ -83,12 +135,12 @@
 										Scanner</a></h2>
 									</header>
 									<div id="cf">
-										<img src="images/docapp6.png" />
-									    <img src="images/docapp5.png" />
-									    <img src="images/docapp2.png" />
-									    <img src="images/docapp4.png" />
-									    <img src="images/docapp3.png" />
-									    <img src="images/docapp1.png" />
+										<img style="width: 200%" src="images/docapp6.png" />
+									    <img style="width: 200%" src="images/docapp5.png" />
+									    <img style="width: 200%" src="images/docapp2.png" />
+									    <img style="width: 200%" src="images/docapp4.png" />
+									    <img style="width: 200%" src="images/docapp3.png" />
+									    <img style="width: 200%" src="images/docapp1.png" />
 									</div>
 									<p style="margin-top: 110%;">Scan new documents or import existing ones. This app allows the user to store, organize, and share documents. It focuses on some of the fundamentals of iOS development including but not limited to: Core data, relationships, privacy requests, searching, drag and drop in collection views, etc.</p>
 									<ul class="actions special">
@@ -97,19 +149,13 @@
 								</article>
 								<article>
 									<header>
-										<h2><a href="#">Ninja's<br>Videos</a></h2>
+										<h2><a href="#">AutonoDrone</a></h2>
 									</header>
-									<div id="cf">
-										<img src="images/youtubeapp6.png" />
-									    <img src="images/youtubeapp5.png" />
-									    <img src="images/youtubeapp2.png" />
-									    <img src="images/youtubeapp4.png" />
-									    <img src="images/youtubeapp3.png" />
-									    <img src="images/youtubeapp1.png" />
-									</div>
-									<p style="margin-top: 110%;">Want to keep up to date with your favorite Youtuber's videos? This app utilizes the Youtube API to fetch videos and playlists for a specific Youtube channel and provides a menu for the user to select a specific playlist of that channel</p>
+									<img style="margin-bottom: -100%; margin-top: -100%; width: 100%" src="images/screenshot1.png" alt="" />
+			
+									<p style="margin-top: 110%;">This is my most recent project. It utilizes the DJI-iOS-Mobile SDK to provide functions for flying their drones. This application specifically focuses on providing users autonomous flying by use of waypoints. These waypoints can be mapped out before heading off to a flight zone and come with a diverse range of options for the user. I've learned a lot about Apple's Mapkit framework while building this app</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/nsharvey22/YoutubeApp" class="button">Check it Out on Github</a></li>
+										<li><a href="https://github.com/nsharvey22/AutonoDrone" class="button">Check it Out on Github</a></li>
 									</ul>
 								</article>
 							
@@ -153,6 +199,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 	</body>
 </html>
